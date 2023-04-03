@@ -7,14 +7,13 @@
 body, html {
   width: 100%;
   height: 100%;
-  background-color: black;
+  background-color: white;
   color: #fff;
   font-family: "Roboto",sans-serif;
   overflow: hidden;
 }
 
 header {
-  padding: 5px 50px;
   position: absolute;
   width: 100%;
   display: flex;
@@ -22,6 +21,7 @@ header {
 }
 
 section{
+  padding: 5px 50px;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -55,22 +55,22 @@ section{
 
 .home-title{
   position: absolute;
-  top: 38px;
+  top: 32.4px;
   font-weight: 760;
-  font-size: 1.4em;
-  transition: transform .3s ease;
+  font-size: 2em;
+  transition: transform .3s ease-in-out;
 }
 
 .home-title:hover{
-  transform: translateY(-13px);
+  transform: translateY(-8px);
 }
 .home-title:hover ~ .home-subtitle{
   opacity: 1;
 }
 
 .home-subtitle{
-  top: 48.5px;
-  left: 1.5px;
+  top: 60px;
+  left: 50.8px;
   position: absolute;
   font-style: italic;
   font-size: 10px;
