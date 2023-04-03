@@ -46,14 +46,15 @@ section{
   color: #fff;
 }
 
-.home {
-  height: 60px;
-  width: 60px;
+section .home {
+  height: 58px;
+  width: 56px;
   vertical-align: middle;
   margin-right: 25px;
+
 }
 
-.home-title{
+section .home-title{
   position: absolute;
   top: 32.4px;
   font-weight: 760;
@@ -68,9 +69,9 @@ section{
   opacity: 1;
 }
 
-.home-subtitle{
+section .home-subtitle{
   top: 60px;
-  left: 50.8px;
+  left: 132px;
   position: absolute;
   font-style: italic;
   font-size: 10px;
